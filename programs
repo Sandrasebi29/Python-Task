@@ -1,3 +1,7 @@
+Write a Python program to print the design attached in this mail. Here we can have 2 inputs: the number of rows and the number of columns.
+The first sample given is for rows value as 4 and the column as 7.
+In the second sample, it's 3 and 5 respectively.
+
 for i in range(0,4):
     for j in range(0,7):
         print('  ---  ',end=" ")
@@ -8,5 +12,20 @@ for i in range(0,4):
     print()
     
     for j in range(0,7):
+        print(' \  / ',end="  ")
+    print()
+
+
+
+for i in range(0,3):
+    for j in range(0,5):
+        print('  ---  ',end=" ")
+    print()
+    for j in range(0,5):
+        print(' /  \ ',end="---")
+        
+    print()
+    
+    for j in range(0,5):
         print(' \  / ',end="  ")
     print()
